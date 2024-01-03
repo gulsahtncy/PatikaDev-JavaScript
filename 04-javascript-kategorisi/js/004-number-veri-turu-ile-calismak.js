@@ -57,4 +57,4 @@ console.log("Asagi Yuvarlama:", Math.floor(1.9) )  // -> 1
 console.log("Yukari Yuvarlama:", Math.ceil(1.9) ) // -> 2
 
 // yakina yuvarlama islemi -> Math.round :
-console.log("Yakina Yuvarlama: ", Math.round(1.5) ) // 1.4 ->1, 1.5 ->
+console.log("Yakina Yuvarlama: ", Math.round(1.5) ) // 1.4 ->1, 1.5 ->2
