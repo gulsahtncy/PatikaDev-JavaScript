@@ -21,14 +21,16 @@ console.log(
 )
 
 // string(metinsel) bilgileri int ve float'a donusturmek
+// parseInt() içindeki sayısal bilgiyi alır
 let number1 = "11"
 number1 = parseInt(number1)
-console.log("number1: ", number1, typeof(number1) )
+console.log("number1: ", number1, typeof(number1) ) // number
 
 let number2 = "11px"
 number2 = parseInt(number2)
-console.log("number2: ", number2, typeof(number2) )
+console.log("number2: ", number2, typeof(number2) ) // number
 
+// Number() içinde sadece sayısal bilgi olacak
 let number3 = "11.1"
 number3 = Number(number3)
 console.log("number3: ", number3, typeof(number3) )

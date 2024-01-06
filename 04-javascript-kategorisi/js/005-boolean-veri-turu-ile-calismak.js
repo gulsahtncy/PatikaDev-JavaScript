@@ -26,4 +26,4 @@ Boolean(0 === 0) // true
 // Sıfırın dışında her şey -> true
 
 // Not: Karar Yapilari Kisminda Tekrar Anlatilacak
-Boolean(userName.length > 0) // true
+Boolean(userName.length > 0) // true 
