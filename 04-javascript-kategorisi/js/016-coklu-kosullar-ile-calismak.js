@@ -11,3 +11,15 @@ if (userName && age >= 18) {
 } else if ( !(age >= 18) ) {
     info.innerHTML = "Yas Bilginiz Yok veya 18 Yasindan Kucuksunuz"
 }
+
+// Switch
+switch(ifade) {
+    case a:
+      // kod bloğu
+      break;
+    case b:
+      // kod bloğu
+      break;
+    default:
+      // kod bloğu
+  }
