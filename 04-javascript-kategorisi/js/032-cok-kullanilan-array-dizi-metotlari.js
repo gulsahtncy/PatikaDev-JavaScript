@@ -59,7 +59,7 @@ allUsers.splice(allUsers.length - 1, 0, "Melissa");
 allUsers.splice(Math.floor(allUsers.length / 2), 0, "Lorem");
 console.log(allUsers);
 
-// . push()
+// .push()
 // Push metodu var olan bir diziye yeni bir eleman eklememizi sağlıyor. Eklemek istediğimiz elemanı parantez içerisine yazıyoruz.
 
 // .pop()
@@ -194,7 +194,7 @@ const sayilar = [10, 20, 30];
 // Dizi içindeki sayıları toplayarak indirgeyecek bir fonksiyon yazalım:
 function indirgeyici(akumulator, sayi) {
   return akumulator + sayi;
-};
+}
 // Bu fonksiyonu ve toplamaya 0'dan başlayacağımızı belirten 0 sayısını metodumuza parametre olarak girelim ve sonucu bir değişkende tutalım:
 const sonuc1 = sayilar.reduce(indirgeyici, 0);
 console.log(sonuc1);
@@ -203,6 +203,3 @@ console.log(sonuc1);
 const sonuc2 = sayilar.reduce(indirgeyici, 5);
 console.log(sonuc2);
 // 5 + 10 + 20 + 30 = 65 olacağından çıktı olarak 65 bekleriz.
-
-
-
